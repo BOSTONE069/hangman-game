@@ -1,4 +1,4 @@
-import random
+import random #this is for importing the random fuction in python
 def hangman():
     word = random.choice(["pugger" , "thor" , "littlepugger" , "kenya" , "uganda" , "tanzania" , "nairobi" , "bostone" , "boston" , "software"])
     validLetters = 'abcdefghijklmnopqrstuvwxyz'
@@ -16,11 +16,11 @@ def hangman():
                 main = main + "_" + " "
         if main == word: # this is for showing a win when the user has done a correct guess
             print(main)
-            print("You won!")
+            print("You won!") #this to show you won
             print("You won!")
             break
 
-        print("Guess the word:" , main)
+        print("Guess the word:" , main) # this enables the user to enter the word for the guess form the list
         guess = input()
 
         if guess in validLetters: # this interates the guesses that the user in masking within the program
