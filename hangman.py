@@ -94,5 +94,5 @@ name = input("Enter your name") # this is the welcome input for the user
 print("Welcome" , name)
 print("----------------------")
 print("Try to guess the word in less than 10 attempts")
-hangman()
+hangman() # this is calling on the defined function of hangman
 print()
